@@ -1,0 +1,262 @@
+
+
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, maximum-scale=1, user-scalable=no">
+	<meta name="MobileOptimized" content="320">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<title>{{page.title}}</title>
+</head>
+<body>
+<div class="game-login">
+	<div class="touch-start ac">
+			<span class="animation-font">点击开始</span>
+	</div>
+	<div style="display:none">
+	{{content}}
+	</div>
+	<!-- loading -->
+	<div id="squaresWaveG">
+		<div id="squaresWaveG_1" class="squaresWaveG">
+		</div>
+		<div id="squaresWaveG_2" class="squaresWaveG">
+		</div>
+		<div id="squaresWaveG_3" class="squaresWaveG">
+		</div>
+		<div id="squaresWaveG_4" class="squaresWaveG">
+		</div>
+		<div id="squaresWaveG_5" class="squaresWaveG">
+		</div>
+		<div id="squaresWaveG_6" class="squaresWaveG">
+		</div>
+		<div id="squaresWaveG_7" class="squaresWaveG">
+		</div>
+		<div id="squaresWaveG_8" class="squaresWaveG">
+		</div>
+	</div>
+</div>
+<!-- section 2 -->
+<div class="game-search">
+	<div class="game-search_title ac">
+		<span class="game-search_ing">正在匹配<em>...</em></span>
+		<p class="search-time"><em id="timecount">5</em>s</p>
+	</div>
+	<div class="game-search_palyer">
+		<span class="search_palyer_lists search_palyer_listsborder">
+			<img src="images/hd1.jpg">
+		</span>
+		<span class="search_palyer_lists">
+			<img src="images/hd1.jpg">
+		</span>
+		<span class="search_palyer_lists">
+			<img src="images/hd1.jpg">
+		</span>
+		<span class="search_palyer_lists">
+			<img src="images/hd1.jpg">
+		</span>
+		<span class="search_palyer_lists">
+			<img src="images/hd1.jpg">
+		</span>
+		<span class="search_palyer_lists">
+			<img src="images/hd1.jpg">
+		</span>
+		<span class="search_palyer_lists">
+			<img src="images/hd1.jpg">
+		</span>
+		<span class="search_palyer_lists">
+			<img src="images/hd1.jpg">
+		</span>
+	</div>
+</div>
+<!-- section3 -->
+<div class="game-start">
+		<!-- 对方的信息 -->
+		<div class="game-start_adversary">
+			<div class="game-player_head al">
+				<img src="images/hd1.jpg">
+				<span class="game-lv">lv<em>40</em></span>
+				<span class="game-sex"><em class="icon-male"></em></span>
+			</div>
+			<div class="game-player_info">
+				<p><span>叫我英雄</span><small>攻击力：<span>23</span></small></p>
+				<div class="game-player_hp game-playerhp_forattk ">
+					<span class="game-playerhp_num "><em id="">600</em>/<em>600</em></span>
+				</div>
+				<div class="game-player_ex"></div>
+			</div>
+		</div>
+		<!-- 对战区域 -->
+		<div class="game-start_area ac">
+			<div class="game-startarea_ani lc">
+					<img src="images/bg-5.png">
+			</div>
+			<div class="game-start_font">
+				
+			</div>
+		</div>
+		<!-- 自己的信息 -->
+		<div class="game-start_owner ar">
+			<div class="game-player_info">
+				<p><small>攻击力：<span>23</span></small><span>叫我英雄</span></p>
+				<div class="game-player_hp game-playerhp_forplayer ar">
+					<span class="game-playerhp_num  num-offset"><em>600</em>/<em>600</em></span>
+				</div>
+				<div class="game-player_ex"></div>
+			</div>
+			<div class="game-player_whead ">
+				<img src="images/hd1.jpg">	
+				<span class="game-offsetlv">lv<em>40</em></span>
+				<span class="game-offsetsex"><em class="icon-male"></em></span>			
+			</div>
+		</div>
+		<div class="game-player_skills ac">
+			<div class="search_palyer_lists">
+				<div class="skill-lists skill-1 lc"></div>
+				<span>半月斩</span>
+			</div>
+
+			<div class="search_palyer_lists">
+				<div class="skill-lists skill-2 lc"></div>
+				<span>春风拂体</span>
+			</div>
+
+			<div class="search_palyer_lists">
+				<div class="skill-lists skill-3 lc"></div>
+				<span>太虚弟子即</span>
+			</div>
+
+			<div class="search_palyer_lists">
+				<div class="skill-lists skill-4 lc"></div>
+				<span>浮生万仞</span>
+			</div>
+
+			<div class="search_palyer_lists">
+				<div class="skill-lists skill-5 lc"></div>
+				<span>罗汉翻天印</span>
+			</div>
+
+			<div class="search_palyer_lists">
+				<div class="skill-lists skill-6 lc"></div>
+				<span>舞动乾坤</span>
+			</div>
+
+			<div class="search_palyer_lists">
+				<div class="skill-lists skill-7 lc"></div>
+				<span>大浪淘沙</span>
+			</div>
+
+		</div>
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/fastclick.js"></script>
+<script type="text/javascript">
+	// 时间增加	
+	function timepls(num) {
+		var timecount = 0;
+		var time = $('#timecount');
+		var search = $('.game-search_ing');
+		search.text("正在匹配")
+		var timecontrol = setInterval(function(){
+			timego();
+		},1000);
+		function timego() {
+			timecount = timecount +1;
+			time.text(timecount);
+			//匹配超时
+			if (timecount==10) {
+				 heropic();
+				clearInterval(timecontrol);
+			}
+		}
+
+	}
+	// function gamesearch() {
+	// 	var url;
+	// 	var data;
+	// 	$.ajax({
+	// 		type:'get',
+	// 		dataTyoe:'json',
+	// 		url:url,
+	// 		success: function(data){
+	// 			if (data.status) {
+
+	// 			};
+	// 		}
+	// 	})
+	// }
+	function heropic(){
+		var timecount = 5;
+		var time = $('#timecount');
+		var search = $('.game-search_ing');
+		search.text("匹配成功");
+
+		var timecontrol = setInterval(function(){
+			timego();
+		},1000);
+		function timego() {
+			timecount = timecount - 1;
+			time.text(timecount);
+			//匹配超时
+			if (timecount==0) {
+
+				startgame();
+			}
+		}
+
+	}
+
+	function startgame() {
+			$(".game-search").addClass('animation-start');
+		setTimeout(function(){
+			$(".game-search").hide();
+			$('.game-start').show();
+		},1500)
+				
+	}
+	$(function(){
+	
+		setTimeout(function(){
+			//界面加载完成
+			$('#squaresWaveG').addClass('animation-start');
+			//点击开始
+			$('.touch-start').show();
+			timepls();
+		},1500)
+				//开始游戏动画
+		$('.touch-start').on('click',function(){
+			$('.game-login').addClass('animation-start');
+			setTimeout(function(){
+				$('.game-login').hide();
+				$('.game-search').fadeIn();
+			},1500)
+		})
+		$('.search_palyer_lists').on('click',function(){
+
+			var _self = $(this);
+			if ( !$(this).hasClass('search_palyer_listsborder')) {
+
+				$('.game-search_palyer span').filter('.search_palyer_listsborder').removeClass('search_palyer_listsborder');				
+				_self.addClass('search_palyer_listsborder');
+				clearInterval()
+			}	
+		})
+		// 战斗模块
+		// 攻击函数普通攻击
+		function attack(){
+			//var hp = $('').text();//获取对方血量
+
+		}
+		//技能攻击
+		function attackskill() {
+
+		}
+		//$('')
+	})
+</script>
+</body>
+</html>

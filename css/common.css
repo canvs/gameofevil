@@ -1,0 +1,230 @@
+body {
+	background-color: #000;
+}
+.game-login {
+	z-index: 3;
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg-1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.touch-start {
+	width: 100%;
+	position: relative;
+	top: 45%;
+	display: none;
+}
+.game-search {
+	display: none;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	background: url(../images/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.game-search_title {
+	line-height: 5.5em;
+	font-size: 24px;
+}
+.game-search_palyer {
+	padding: 20px 10px;
+	box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+	font-size:0;
+} 
+.search_palyer_lists {
+	display: inline-block;
+	letter-spacing:normal;
+	word-spacing:normal;
+	overflow: hidden;
+	width: 25%;
+	padding: 8px;
+}
+.game-search_palyer
+.search_palyer_listsborder {
+	padding: 0px;
+	border :8px solid transparent;
+	-moz-border-image: url(../images/border-img.png) 16;
+	-webkit-border-image: url(../images/border-img.png) 16;
+	border-image: url(../images/border-img.png) 16;
+	
+}
+.search_palyer_lists img {
+	width: 100%;
+}
+.game-start {
+	z-index: 1;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	bottom: 0px;
+	background: url(../images/bg-3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 15px;
+	display: none;
+}
+.game-start_adversary {
+		display: -webkit-box;
+    display: box;
+}
+.game-player_head {
+  position: relative;
+}
+.game-player_head img ,.game-player_whead img{
+	max-width: 68px;
+	padding: 0px;
+	border :2px solid transparent;
+	-moz-border-image: url(../images/bg-4.jpg) 16;
+	-webkit-border-image: url(../images/bg-4.jpg) 16;
+	border-image: url(../images/bg-4.jpg) 16;
+}
+.game-sex {
+	position: absolute;
+	font-size: 16px;
+	left: 55px;
+	top: -2px;
+}
+.game-lv {
+	left: 47px;
+	bottom: -2px;
+}
+.game-lv,.game-offsetlv{
+	font-size: 12px;
+	position: absolute;
+	display: inline-block;
+	border-radius: 3px;
+	background-color: #0c0a0b;
+	border: 1px solid #6f1f07;
+	box-shadow:  0px 0px 1px #0c0a0b;
+	padding: 1px;
+}
+.game-offsetlv {
+	right: 47px;
+	bottom: -2px;
+}
+.game-offsetsex {
+	position: absolute;
+	font-size: 16px;
+	right: 55px;
+	top: -2px;
+	transform: rotate(270deg) ;
+	-webkit-transform: rotate(270deg) ;
+}
+.game-player_info {
+	font-size: 16px;
+	padding:0px 15px; 
+	-webkit-box-flex: 1;
+  box-flex: 1;
+	-webkit-box-align: center;
+  box-align: center;
+}
+.game-player_info small {
+	font-size: 12px;
+	padding: 0px 8px;
+}
+.game-player_info p{
+	margin-bottom: 5px;
+}
+.game-player_hp {
+	position: relative;
+	border-radius: 2px;
+	height: 22px;
+	min-width: 200px;
+	background-color: #fff;
+	box-shadow: 0 0 5px #ccc;
+	background-image: url(../images/bg-3.png);
+	background-repeat: no-repeat;
+	line-height: 22px;
+}
+.game-playerhp_forattk {
+	background-size: 100% 100%;
+}
+.game-playerhp_forplayer {
+	background-position: right;
+	background-size: 100% 100%;
+}
+.game-playerhp_num {
+	position: absolute;
+	left: 5px;
+	font-size: 14px;
+}
+.game-player_ex {
+	max-width: 180px;
+}
+.game-start_area {
+	width: 100%;
+	padding: 15px;
+}
+.game-startarea_ani {
+	width: 200px;
+}
+.game-startarea_ani img {
+	width: 100%;
+}
+.game-start_owner {
+	display: -webkit-box;
+  display: box;
+}
+.game-player_whead {
+  position: relative;
+}
+.num-offset {
+	right: 5px !important;
+}
+.game-player_skills {
+	height: auto;
+	width: 100%;
+	margin-top: 15px;
+	padding: 5px;
+	border :2px solid transparent;
+	-moz-border-image: url(../images/bg-6.png) 16;
+	-webkit-border-image: url(../images/bg-6.png) 16;
+	border-image: url(../images/bg-6.png) 16;
+	font-size: 0;
+}
+.game-player_skills img {
+	width: 100%;
+}
+.game-player_skills span {
+	font-size: 12px;
+	line-height: 1.8;       
+	white-space:nowrap;  
+}
+.skill-lists {
+	width: 56px;
+	height:56px;
+	background: url(../images/skill.png);
+}
+.skill-1 {
+	background-position: 0px 0px;
+}
+.skill-2 {
+	background-position: -100px 0px;
+}
+.skill-3 {
+	background-position: -201px 0;
+}
+
+.skill-4 {
+	background-position: 56px 0px;
+}
+
+.skill-5 {
+	background-position: 0px 56px;
+}
+
+.skill-6 {
+	background-position: -100px 56px;
+}
+
+.skill-7 {
+	background-position: -201px 56px;
+}
+
